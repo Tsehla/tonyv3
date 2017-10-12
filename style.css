@@ -1,0 +1,183 @@
+*{border-sizing:border-box;
+    /*border: blue dotted 1px;*/}
+html{ 
+        font-size:1px;
+        padding: 0px 0px 0px 0px;
+        margin: 0px 0px 0px 0px;
+        width:100%;
+        height:auto;
+        background-color:transparent;
+}
+body{
+    height:auto;
+}
+
+.responsiveWidth{
+    content:"";
+    clear:both;
+}
+
+/* contents width that will change with size*/
+
+/*for mobile*/
+
+    
+    .responsiveWidth{
+        width:100%;
+    }   
+.headerBar{
+       height:50px;}
+   
+.imageBelt{height:20vw;}	
+
+.imageBeltImg{	height:19vw;}
+.imagebeltImage{height:18vw; 
+		width:50vw;}
+.containerText{ height:auto;}
+.footerBar{height:70px;}
+.headerlogoImage{height:50px;
+		width:auto;
+		content:"";
+   		 clear:both; }
+h1{font-size:20px; font-family: 'Rye', cursive; color:white;}
+h2{font-size:15px; font-family: 'Nosifer', cursive; color:white;}
+
+
+
+h{font-size:7vw; font-family: 'Josefin Sans', sans-serif; font-family: 'Josefin Sans', sans-serif;}
+p{font-size:5vw; padding: 2px 4px 2px 2px; font-family: 'Open Sans Condensed', sans-serif;}
+.containerTextLine{border-top:black solid 1px; border-left:black solid 0px; padding-top:10px;}
+     
+  
+
+/*for tablets */
+@media screen and (min-width:480px){
+    
+    
+.responsiveWidth{width:50%; }
+.headerBar{ height:70px;}
+.imageBelt{height:20vw;}	
+.imageBeltImg{	height:19vw;
+	display:table-cell;}
+.imagebeltImage{height:18vw; width:auto;} 
+.containerText{height:auto;
+		display:table-cell;}
+.footerBar{height:90px;}
+.headerlogoImage{height:70px;
+		width:auto; }   
+h{font-size:4vw;}
+p{font-size:2.5vw; padding: 2px 4px 2px 2px;}
+
+h1{font-size:35px;font-family: 'Josefin Sans', sans-serif;}
+h2{font-size:30px;font-family: 'Josefin Sans', sans-serif;}
+
+.containerTextLine{border-top:black solid 0px; border-left:black solid 2px;padding-left:15px;}
+     
+
+}
+
+
+/*for desktop*/
+@media screen and (min-width:960px){
+
+    
+    
+.responsiveWidth{ width:50%;}
+.headerBar{ height:90px;}
+.imageBelt{height:15vw;}
+.imageBeltImg{height:14vw;
+display:table-cell;}
+.imagebeltImage{height:14vw; width:auto;}
+.containerText{height:auto;
+		display:table-cell;}
+.footerBar{height:115px;} 
+.headerlogoImage{height:90px;
+		width:auto; }   
+h{font-size:2vw;}
+p{font-size:2vw; padding: 2px 4px 2px 2px;}
+h1{font-size:40px; }
+h2{font-size:45px;}
+
+ }
+
+
+/* the header*/
+
+.headerBar{
+    width:100%;
+    display:table;
+    align-content: center;
+    background-image:url("https://s3.envato.com/files/49964090/dg_dr_prew.jpg");
+}
+
+.headerLogo{
+    display: table-cell;
+    width:20%;
+    height:50px;
+  	
+}
+
+.headertext{
+    display:table-cell;
+    width:60%;
+    height:50px;	      }
+     
+.separator{
+    width: 100%;
+    height: 2px;
+	margin-top:9px;
+	margin-bottom:9px;
+   }
+.separatorLine{ 
+    width: 90%;
+    height:1px;
+    background-color: black;
+	
+}
+
+/*body images*/
+
+.imageBelt{
+
+	width:100%;
+	display:table;
+}
+
+
+.imagebeltImage{/*find in media*/}
+/*body text*/
+
+.textContainer{height:auto;
+		width:100%;
+		display:table;}
+.containerText{ /*find in @media*/}	
+
+/*footer*/
+.footerBar{
+	width:100%;}
+.footerBarContent{
+	width:inherit;
+	height:inherit;
+	background-image:url("https://s3.envato.com/files/49964090/dg_dr_prew.jpg");}
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
